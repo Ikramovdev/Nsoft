@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 
-
 /* Fonts  */
 @font-face {
     font-display: swap;
@@ -99,9 +98,87 @@
     scroll-behavior: smooth;
 }
 body{
+    background-color: rgb(247, 244, 244);
     font-family: "Lato",sans-serif;
     font-family: "Karla",sans-serif;
     font-family: "Inter",sans-serif;
     font-family:"Poppins",sans-serif ;
     font-family: "Montserrat",sans-serif;
 }
+
+/* //////////////// */
+.hero-section{
+    background-image: url('./assets/images/HeroBg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.HeroContent{
+    background-image: url('./assets/images/HeroRightBg.png');
+    background-repeat: no-repeat;
+    background-size: 700px 700px;
+    background-position: 108px;
+}
+
+/* work section  */
+
+.autoBizness{
+    background-image: url('./assets/images/AutoBiznessBg.png');
+    background-repeat: no-repeat;
+    background-size: 288px 288px;
+    background-position: bottom left;
+}
+.crmItem{
+    background-image: url('./assets/images/crmBg.png');
+    background-repeat: no-repeat;
+    background-size: 250px 250px;
+    background-position: top right;
+}
+.MobileItem{
+    background-image: url('./assets/images/MobileBg.png');
+    background-repeat: no-repeat;
+    background-size: 330px 330px;
+    background-position: center;
+}
+.computerItem{
+    background-image: url('./assets/images/computerBg.png');
+    background-repeat: no-repeat;
+    background-size: 250px 350px;
+    background-position: center right;
+}
+.siteItem{
+    background-image: url('./assets/images/siteBg.png');
+    background-repeat: no-repeat;
+    background-size: 250px 250px;
+    background-position: top left;
+}
+.erpItem{
+    background-image: url('./assets/images/erpBg.png');
+    background-repeat: no-repeat;
+    background-size: 330px 180px;
+    background-position: bottom center;
+}
+/* work section  */
+
+
+
+/* ApproachWork */
+
+.ApproachWork-top{
+    background-image: url('./assets/images/ApproachWorkImgLeft.png'),url('./assets/images/ApproachWorkImgRight.png');
+    background-repeat: no-repeat;
+    background-size: 400px 400px, 250px 400px;
+    background-position: center left,center right;
+}
+.developmentLeft{
+    background-image: url('./assets/images/developmentBg.png');
+    background-repeat: no-repeat;
+    background-size: 550px 470px;
+    background-position: right center;
+}
+.developmentRight{
+    background-image: url('./assets/images/developmentRight.png');
+    background-repeat: no-repeat;
+    background-size: 260px 470px;
+    background-position: left center;
+}
+/* ApproachWork */
