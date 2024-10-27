@@ -118,6 +118,19 @@ body{
     background-size: 700px 700px;
     background-position: 108px;
 }
+@media (max-width: 1024px) {
+    .hero-section{
+        background-image: url('./assets/images/HeroMobilebgTop.png'),url('./assets/images/HeroMobileBgBottom.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .HeroContent{
+        background-image: url('./assets/images/HeroMobileContentBg.png');
+        background-repeat: no-repeat;
+        background-size: 246px 246px;
+        background-position: 40px -30px ;
+    }
+}
 
 /* work section  */
 
@@ -127,11 +140,27 @@ body{
     background-size: 288px 288px;
     background-position: bottom left;
 }
+@media (max-width: 1024px){
+    .autoBizness{
+        background-image: url('./assets/images/AutoBiznessBg.png');
+        background-repeat: no-repeat;
+        background-size: 130px 130px;
+        background-position: bottom left;
+    }
+}
 .crmItem{
     background-image: url('./assets/images/crmBg.png');
     background-repeat: no-repeat;
     background-size: 250px 250px;
     background-position: top right;
+}
+@media (max-width: 1024px){
+    .crmItem{
+        background-image: url('./assets/images/crmBg.png');
+        background-repeat: no-repeat;
+        background-size: 132px 132px;
+        background-position: top right;
+    }
 }
 .MobileItem{
     background-image: url('./assets/images/MobileBg.png');
@@ -139,11 +168,26 @@ body{
     background-size: 330px 330px;
     background-position: center;
 }
+@media (max-width: 1024px){
+    .MobileItem{
+        background-image: url('./assets/images/MobileBg.png');
+        background-repeat: no-repeat;
+        background-size: 120px 100px;
+        background-position: center;
+    }
+}
 .computerItem{
     background-image: url('./assets/images/computerBg.png');
     background-repeat: no-repeat;
     background-size: 250px 350px;
     background-position: center right;
+}
+@media (max-width: 1024px){
+    .computerItem{
+        background-image: url('./assets/images/computerBg.png');
+        background-repeat: no-repeat;
+        background-size: 70px 120px;
+    }    
 }
 .siteItem{
     background-image: url('./assets/images/siteBg.png');
@@ -151,11 +195,27 @@ body{
     background-size: 250px 250px;
     background-position: top left;
 }
+@media (max-width: 1024px){
+    .siteItem{
+        background-image: url('./assets/images/siteBg.png');
+        background-repeat: no-repeat;
+        background-size: 85px 85px;
+        background-position: top left;
+    }
+}
 .erpItem{
     background-image: url('./assets/images/erpBg.png');
     background-repeat: no-repeat;
     background-size: 330px 180px;
     background-position: bottom center;
+}
+@media (max-width: 1024px){
+    .erpItem{
+        background-image: url('./assets/images/erpBg.png');
+        background-repeat: no-repeat;
+        background-size: 135px 70px;
+        background-position: bottom center;
+    }
 }
 /* work section  */
 
@@ -169,16 +229,80 @@ body{
     background-size: 400px 400px, 250px 400px;
     background-position: center left,center right;
 }
+@media (max-width: 1024px){
+    .ApproachWork-top{
+        background-image: url('./assets/images/ApproachWorkImgLeft.png'),url('./assets/images/ApproachWorkImgRight.png');
+        background-repeat: no-repeat;
+        background-size: 90px 104px, 70px 104px;
+        background-position: center left,center right;
+    }
+}
+.approach{
+    display: flex ;
+    align-items: center;
+    justify-content: space-between;
+}
+@media (max-width: 1024px){
+    .approach{
+        display: flex ;
+        flex-direction: column;
+    }
+}
 .developmentLeft{
     background-image: url('./assets/images/developmentBg.png');
     background-repeat: no-repeat;
     background-size: 550px 470px;
     background-position: right center;
 }
+@media (max-width: 1024px){
+    .developmentLeft{
+        background-image: url('./assets/images/developmentBg.png');
+        background-repeat: no-repeat;
+        background-size: 90px 107px;
+        background-position: right center;
+    }
+}
 .developmentRight{
     background-image: url('./assets/images/developmentRight.png');
     background-repeat: no-repeat;
     background-size: 260px 470px;
     background-position: left center;
+}
+@media (max-width: 1024px){
+    .developmentRight{
+        background-image: url('./assets/images/developmentRight.png');
+        background-repeat: no-repeat;
+        background-size: 50px 100px;
+        background-position: left center;
+    }
+}
+
+.work-count{
+    background-image: url('./assets/images/workCountBg.png');
+    background-repeat: no-repeat;
+    background-size: 470px 250px;
+    background-position: center bottom;
+}
+@media (max-width: 1024px){
+    .work-count{
+        background-image: url('./assets/images/workCountBg.png');
+        background-repeat: no-repeat;
+        background-size: 110px 63px;
+        background-position: center bottom;
+    }
+}
+.ApproachWorkBottom{
+    background-image: url('./assets/images/ApproachWorkBottomBg.png');
+    background-repeat: no-repeat;
+    background-size: 778px 441px;
+    background-position: center bottom;
+}
+@media (max-width: 1024px){
+    .ApproachWorkBottom{
+        background-image: url('./assets/images/ApproachWorkBottomBg.png');
+        background-repeat: no-repeat;
+        background-size: 160px 83px;
+        background-position: center bottom;
+    }
 }
 /* ApproachWork */
