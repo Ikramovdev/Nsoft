@@ -98,7 +98,7 @@
     scroll-behavior: smooth;
 }
 body{
-    background-color: rgb(247, 244, 244);
+    background-color: rgb(235, 235, 235);
     font-family: "Lato",sans-serif;
     font-family: "Karla",sans-serif;
     font-family: "Inter",sans-serif;
@@ -306,3 +306,149 @@ body{
     }
 }
 /* ApproachWork */
+
+/* Praise */
+
+.PraiseLeft{
+    background-image: url('./assets/images/PraiseLeft.png');
+    background-repeat: no-repeat;
+    background-size: 200px 330px;
+    background-position: left center;
+}
+@media (max-width: 1024px){
+    .PraiseLeft{
+        background-image: url('./assets/images/PraiseLeft.png');
+        background-repeat: no-repeat;
+        background-size: 60px 130px;
+        background-position: left center;
+    }
+}
+.PraiseRight{
+    background-image: url('./assets/images/PraiseRight.png');
+    background-repeat: no-repeat;
+    background-size: 170px 330px;
+    background-position: left center;
+}
+@media (max-width: 1024px){
+    .PraiseRight{
+        background-image: url('./assets/images/PraiseRight.png');
+        background-repeat: no-repeat;
+        background-size: 50px 115px;
+        background-position: left center;
+    }
+}
+.Praise{
+    display: flex ;
+    align-items: center;
+    justify-content: space-between;
+}
+@media (max-width: 1024px){
+    .Praise{
+        display: flex ;
+        flex-direction: column;
+    }
+}
+
+/* MobileApp  */
+
+.MobileApp{
+    background-image: url('./assets/images/MobileAppBg.png');
+    background-repeat: no-repeat;
+    background-size:3040px 1274px; 
+    background-position: center;
+}
+@media (max-width: 1024px){
+    .MobileApp{
+        background-image: url('./assets/images/MobileAppmobileBg.png');
+        background-repeat: no-repeat;
+        background-size:948px 543px; 
+        background-position: center;
+    }
+}
+.MobileAppContainer{
+    background-image: url('./assets/images/MobileAppTextBg.png'),url('./assets/images/MobileAppTextBgRight.png');
+    background-repeat: no-repeat;
+    background-size: 187px 990px,187px 990px;
+    background-position: center left,center right;
+}
+@media (max-width: 1024px){
+    .MobileAppContainer{
+        background-image: url('./assets/images/MobileAppTextBg.png'),url('./assets/images/MobileAppTextBgRight.png');
+        background-repeat: no-repeat;
+        background-size: 47px 261px,47px 261px;
+        background-position:center left,center right;
+    }
+}
+.phoneImg{
+    display: flex;
+    flex-direction: column;
+}
+.phoneTitle{
+    display: flex ;
+    justify-content: space-between;
+}
+.phoneBg{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url('./assets/images/phoneImg.png');
+    background-repeat: no-repeat;
+    background-size: 1508px 1131px;
+    background-position: center;
+}
+@media (max-width: 1024px){
+    .phoneImg{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .phoneTitle{
+        display: flex ;
+        flex-direction: column;
+    }
+    .phoneBg{
+        display: flex;
+        flex-direction: column;
+        background-image: none;
+    }
+}
+.company{
+    background-image: url('./assets/images/EarthMap.png');
+    background-repeat: no-repeat;
+    background-size: 1665px 902px;
+}
+@media (max-width: 1024px){
+    .company{
+        background-image: url('./assets/images/EarthMap.png');
+        background-repeat: no-repeat;
+        background-size: 335px 610px;
+    }
+}
+/* contact  */
+.Contactform{
+    display: flex ;
+    align-items: center;
+    justify-content: space-between;
+}
+@media (max-width: 1024px){
+    .Contactform{
+        display: flex ;
+        flex-direction: column;
+        background-image: url('./assets/images/contactLeftBg.png'),url('./assets/images/ContactRightBg.png');
+        background-repeat: no-repeat;
+        background-size: 70px 140px,70px 140px; 
+        background-position: center left,center right;
+    }
+}
+.contact{
+    display: flex ;
+    align-items: center;
+    justify-content: space-between;
+}
+@media (max-width: 1024px){
+    .contact{
+        display: flex ;
+        flex-direction: column;
+    }
+}
+/* contact  */
