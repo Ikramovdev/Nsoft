@@ -1,8 +1,9 @@
 import React from 'react'
+import approachBottomImg from "../assets/images/approachBottomImg.png"
 
 const ApproachWork = () => {
   return (
-    <section className='mb-[300px]'>
+    <section className='mb-[159px] lg:mb-[300px]'>
         <div className='w-full lg:w-[1680px] mx-auto'>
             <div className='mx-[13px] lg:mx-[183px] mb-[30px] lg:mb-[46px]'>
                  <h2 className='w-[231px] lg:w-[807px] font-extrabold text-[20px] lg:text-[70px] text-black block mx-auto leading-[24px] lg:leading-[85.3px] text-center mb-[27px] lg:mb-[50px]'>Bizning ishga bo’lgan yondashuvimiz</h2>
@@ -82,9 +83,14 @@ const ApproachWork = () => {
                     </div>
                 </div>
             </div>
-            <div className='ApproachWorkBottom py-[10px] lg:py-[112px] pl-[21px] pr-[9px] lg:px-[315px] bg-white rounded-[9px] lg:rounded-[97px] mx-[21px] lg:mx-0'>
-                <p className='font-medium text-[8px] lg:text-[25px] text-black leading-[12[x]] lg:leading-[37.5px] text-center mb-[5px] lg:mb-5'>Biz yurtdoshlarimiz uchun juda ko’plab dasturiy ta’minotlari orqali biznes va ijtimoiy hayotdagi muammolarga raqamli yechimlar topib kelmoqdamiz.</p>
-                <p className='font-medium text-[8px] lg:text-[25px] text-black leading-[12[x]] lg:leading-[37.5px] text-center'>Asosiy maqsadimiz insonlar hayotini raqamli texnologiyalar orqali yanada osonlashtirishdan iborat.</p>
+            <div className='relative'>
+                <div className='ApproachWorkBottom py-[10px] lg:py-[112px] pl-[21px] pr-[9px] lg:px-[315px] bg-white rounded-[9px] lg:rounded-[47px] mx-[21px] lg:mx-0 relative z-10'>
+                    <p className='font-medium text-[8px] lg:text-[25px] text-black leading-[12[x]] lg:leading-[37.5px] text-center mb-[5px] lg:mb-5'>Biz yurtdoshlarimiz uchun juda ko’plab dasturiy ta’minotlari orqali biznes va ijtimoiy hayotdagi muammolarga raqamli yechimlar topib kelmoqdamiz.</p>
+                    <p className='font-medium text-[8px] lg:text-[25px] text-black leading-[12[x]] lg:leading-[37.5px] text-center'>Asosiy maqsadimiz insonlar hayotini raqamli texnologiyalar orqali yanada osonlashtirishdan iborat.</p>
+                </div>
+                <div className='lg:absolute lg:bottom-[-510px] lg:left-[10px]'>
+                    <img className='w-[387px] lg:w-[1553px] h-[164px] lg:h-[523px]' src={approachBottomImg} alt="approachBottomImg" />
+                </div>
             </div>
         </div>
     </section>
