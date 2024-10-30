@@ -2,7 +2,7 @@ import React from 'react'
 import FacebookIcon from "../assets/images/facebook.svg"
 import InstagramIcon from "../assets/images/instagram.svg"
 import TelegramIcon from "../assets/images/telegram.svg"
-import PlayMarket from "../assets/images/playMarket.svg"
+import PlayMarket from "../assets/images/playmarket.svg"
 
 const Contact = () => {
     function handleContactSubmit(e){
@@ -12,6 +12,7 @@ const Contact = () => {
             UserNumber: e.target.userNumber.value,
         }
         localStorage.setItem("userContact", JSON.stringify(data))
+        e.reset()
     }
   return (
     <section id='contact' className='mb-[30px] lg:mb-[50px]'>
@@ -64,7 +65,7 @@ const Contact = () => {
                         </li>
                     </ul>
                 </div>
-                <iframe className='w-[335px] lg:w-[678px] h-[98px] lg:h-[480px] rounded-[12.39px] lg:rounded-[62px] cursor-pointer' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3020.718979290059!2d72.34700217625073!3d40.79019187138186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38bcebeb381492b9%3A0xb489d795254d00c3!2sNSOFT%20Andijon!5e0!3m2!1suz!2s!4v1730035534219!5m2!1suz!2s" loading="lazy"></iframe>
+                <iframe className='w-full lg:w-[678px] h-[98px] lg:h-[480px] rounded-[12.39px] lg:rounded-[62px] cursor-pointer' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3020.718979290059!2d72.34700217625073!3d40.79019187138186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38bcebeb381492b9%3A0xb489d795254d00c3!2sNSOFT%20Andijon!5e0!3m2!1suz!2s!4v1730035534219!5m2!1suz!2s" loading="lazy"></iframe>
             </div>
         </div>
     </section>

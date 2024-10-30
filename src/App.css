@@ -361,7 +361,7 @@ body{
     .MobileApp{
         background-image: url('./assets/images/MobileAppmobileBg.png');
         background-repeat: no-repeat;
-        background-size:948px 543px; 
+        background-size:640px 543px; 
         background-position: center;
     }
 }
