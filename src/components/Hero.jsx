@@ -4,7 +4,7 @@ import HeroImg from "../assets/images/HeroImg.png"
 const Hero = () => {
   return (
       <section className='hero-section mb-[33px] lg:mb-[98px] bg-green-500 lg:bg-green-600'>
-          <div className='w-full lg:w-[1680px] mx-auto'>
+          <div className='w-full lg:w-[1680px] mx-auto overflow-hidden'>
             <div className='flex flex-col lg:flex-row lg:justify-between'>
               <div className='w-[307px] lg:w-[567px] pt-[30px] lg:pt-[163px] text-center lg:text-left mx-auto lg:mx-0'>
                 <h1 className='font-semibold text-[20px] lg:text-[40px] text-black leading-[22.9px] lg:leading-[50px] mb-[10px] lg:mb-[17px]'>Biznes uchun eng yaxshi raqamli yechimlar</h1>

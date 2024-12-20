@@ -3,7 +3,7 @@ import React from 'react'
 const Praise = () => {
   return (
     <section id='praise' className='mb-[30px] lg:mb-[100px]'>
-        <div className='w-full lg:w-[1680px] mx-auto'>
+        <div className='w-full lg:w-[1680px] mx-auto overflow-hidden'>
             <div>
                 <h2 className='font-extrabold text-[15px] lg:text-[70px] leading-[18.29px] lg:leading-[85.33px] text-center mb-[10px] lg:mb-[50px]'>Biz raqamli mahsulotlar bozoriga kecha kelgan kompaniya emasmiz !</h2>
                 <ul className='Praise mb-[30px] lg:mb-[100px] mx-[21px] lg:mx-auto'>

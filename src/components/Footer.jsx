@@ -4,7 +4,7 @@ import FooterSiteLogo from "../assets/images/FooterSiteLogo.svg"
 const Footer = () => {
   return (
     <footer className='bg-[#00B669]'>
-        <div className='w-full lg:w-[1680px] mx-auto py-[53px] lg:pt-[58px] lg:pb-[97px] flex lg:gap-[192px]'>
+        <div className='w-full lg:w-[1680px] mx-auto py-[53px] lg:pt-[58px] lg:pb-[97px] flex lg:gap-[192px] overflow-hidden'>
             <div className='mx-auto'>
               <img className='w-[174px] lg:w-[285px] h-[50px] lg:h-[82px] mb-[22px] lg:mb-[15px] mx-auto lg:mx-0' src={FooterSiteLogo} alt="FooterSiteLogo" />
               <p className='w-[248px] lg:w-[360px] text-center lg:text-left font-regular text-[13px] lg:text-[20px] text-black leading-[19.64px] lg:leading-[32px]'>Dasturlar bor dasturlarning naqshidur. Sen avval insonlarning naqshi bo’l.</p>

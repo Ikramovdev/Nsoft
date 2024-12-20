@@ -22,7 +22,7 @@ import Line from "../assets/images/Line.png"
 
 const Trust = () => {
   return (
-    <section id='trust' className='mb-[30px] lg:mb-[93px]'>
+    <section id='trust' className='mb-[30px] lg:mb-[93px] overflow-hidden'>
         <div className='w-full lg:w-[1680px] mx-[21px] lg:mx-auto'>
             <h2 className='w-[272px] lg:w-[562px] font-extrabold text-[25px] lg:text-[70px] leading-[30.48px] lg:leading-[85.33px] mb-5 lg:mb-[90px]'>Bizga ishonch bildirishadi ...</h2>
             <ul className='company flex flex-wrap gap-[24px] lg:gap-[50px]  lg:pt-[109px] lg:pb-[297px] lg:px-[112px]'>

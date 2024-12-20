@@ -5,7 +5,7 @@ import PhoneImgMobile from "../assets/images/PhoneImgMobile.png"
 const MobileApp = () => {
   return (
         <section className='MobileApp mb-[30px] lg:mb-[100px]'>
-            <div className='MobileAppContainer w-full lg:w-[1680px] mx-auto'>
+            <div className='MobileAppContainer w-full lg:w-[1680px] mx-auto overflow-hidden'>
                 <div className='phoneImg'>
                     <div className='phoneTitle mx-[27px] lg:mx-auto lg:gap-[150px] lg:pl-[168px]'>
                         <h2 className='w-[200px] text-center lg:text-left lg:w-[559px] font-extrabold text-[25px] lg:text-[70px] text-black leading-[30.48px] lg:leading-[85.33px] mx-[59px] lg:mx-0'>N-Savdo Agent  Mobil Ilovasi</h2>

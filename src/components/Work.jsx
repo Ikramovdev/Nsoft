@@ -11,7 +11,7 @@ import ErpImg from "../assets/images/erpImg.png"
 const Work = () => {
   return (
     <section id='work' className='mb-[30px] lg:mb-[100px]'>
-        <div className='w-full lg:w-[1680px] mx-auto'>
+        <div className='w-full lg:w-[1680px] mx-auto overflow-hidden'>
             <div className='mb-[30px] lg:mb-[80px]'>
                 <h2 className='font-extrabold text-[20px] lg:text-[70px] text-black leading-[24.38px] lg:leading-[85.3px] text-center mb-[18px] lg:mb-[50px]'>Bizning xizmatlar</h2>
                 <div className='flex items-center justify-center space-x-[25px] lg:space-x-[164px]'>

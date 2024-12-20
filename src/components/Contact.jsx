@@ -16,7 +16,7 @@ const Contact = () => {
     }
   return (
     <section id='contact' className='mb-[30px] lg:mb-[50px]'>
-        <div className='w-full lg:w-[1680px] mx-auto'>
+        <div className='w-full lg:w-[1680px] mx-auto overflow-hidden'>
             <div className='w-[163px] lg:w-[769px] lg:relative mb-[15px] lg:mb-[65px] mx-auto'>
                 <h2 className='relative z-10 font-bold text-[25px] lg:text-[70px] leading-[30.48px] lg:leading-[85.33px] text-center'>Biz bilan bog’lanish</h2>
                 <span className='lg:absolute bottom-0 left-[7px] w-[154px] h-[30px] bg-[#08B86D]'></span>

@@ -4,7 +4,7 @@ import approachBottomImg from "../assets/images/approachBottomImg.png"
 const ApproachWork = () => {
   return (
     <section className='lg:mb-[390px]'>
-        <div className='w-full lg:w-[1680px] mx-auto'>
+        <div className='w-full lg:w-[1680px] mx-auto overflow-hidden'>
             <div className='mx-[13px] lg:mx-[183px] mb-[30px] lg:mb-[46px]'>
                  <h2 className='w-[231px] lg:w-[807px] font-extrabold text-[20px] lg:text-[70px] text-black block mx-auto leading-[24px] lg:leading-[85.3px] text-center mb-[27px] lg:mb-[50px]'>Bizning ishga bo’lgan yondashuvimiz</h2>
                 <div className='flex items-center justify-center space-x-[15px] lg:space-x-[164px]'>
