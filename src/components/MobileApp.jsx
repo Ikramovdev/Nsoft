@@ -24,7 +24,6 @@ const MobileApp = () => {
                     </div>
                 </div>
             </div>
-            <a  href='#top' className='absolute right-[200px]'><img src={TopImg} alt="TopImg" width={100} height={100} /></a>
             <img className='hidden lg:block mt-[258px]' src={Line} alt="Line" />
         </section>
   )
