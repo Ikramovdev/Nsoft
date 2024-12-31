@@ -1,10 +1,10 @@
 import React from 'react'
 import Line from "../assets/images/Line.png"
 import PhoneImgMobile from "../assets/images/PhoneImgMobile.png"
-
+import TopImg from "../assets/images/topImg.svg"
 const MobileApp = () => {
   return (
-        <section className='MobileApp mb-[30px] lg:mb-[100px]'>
+        <section className='MobileApp mb-[30px] lg:mb-[100px] relative'>
             <div className='MobileAppContainer w-full lg:w-[1680px] mx-auto overflow-hidden'>
                 <div className='phoneImg'>
                     <div className='phoneTitle mx-[27px] lg:mx-auto lg:gap-[150px] lg:pl-[168px]'>
@@ -24,6 +24,7 @@ const MobileApp = () => {
                     </div>
                 </div>
             </div>
+            <a  href='#top' className='absolute right-[200px]'><img src={TopImg} alt="TopImg" width={100} height={100} /></a>
             <img className='hidden lg:block mt-[258px]' src={Line} alt="Line" />
         </section>
   )

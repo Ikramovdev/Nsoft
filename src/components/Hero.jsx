@@ -10,7 +10,7 @@ const Hero = () => {
                 <h1 className='font-semibold text-[20px] lg:text-[40px] text-black leading-[22.9px] lg:leading-[50px] mb-[10px] lg:mb-[17px]'>Biznes uchun eng yaxshi raqamli yechimlar</h1>
                 <strong className='font-medium text-[13.79px] lg:text-[30px] text-black leading-[20.61px] lg:leading-[45px] mb-[10px] lg:mb-[7px]'>web, mobile , ERP, CRM , analytics</strong>
                 <p className='font-light text-[10px] lg:text-[25px] text-black leading-[15px] lg:leading-[37.5px] mb-[14px] lg:mb-[17px]'>Nsoft biznes uchun veb xizmatlar va mobil ilovalar, ERP hamda CRM tizimlarini ishlab chiqadi.</p>
-                <a className='inline-block text-center w-[110px] lg:w-[240px] py-[10px] lg:py-[20px] bg-white rounded-[4.58px] lg:rounded-[10px] font-medium text-black text-[11.41px] lg:text-[25px] leading-[9.16px] lg:leading-[20px] mb-[62px] lg:mb-[164px]' href='#'>Bog’lanish</a>
+                <a className='inline-block text-center w-[110px] lg:w-[240px] py-[10px] lg:py-[20px] bg-white rounded-[4.58px] lg:rounded-[10px] font-medium text-black text-[11.41px] lg:text-[25px] leading-[9.16px] lg:leading-[20px] mb-[62px] lg:mb-[164px]' href='#contact'>Bog’lanish</a>
               </div>
               <div className='HeroContent'>
                 <img className='w-full lg:w-[1071px] h-[197px] lg:h-[643px]' src={HeroImg} alt="HeroImg" />

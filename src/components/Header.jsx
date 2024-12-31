@@ -10,26 +10,26 @@ const Header = () => {
     {
       id: 1,
       title: "Biz haqimizda",
-      path: "#",
+      path: "#approachWork",
     },
     {
       id: 2,
       title: "Xizmatlar",
-      path: "#",
+      path: "#work",
     },
     {
       id: 3,
       title: "Mijozlar",
-      path: "#",
+      path: "#trust",
     },
     {
       id: 4,
       title: "Bog’lanish",
-      path: "#",
+      path: "#contact",
     },
   ]
   return (
-    <header className='relative'>
+    <header className='relative' id='top'>
       <div className='w-full lg:w-[1680px] px-5 lg:px-0 mx-auto flex items-center justify-between lg:block overflow-hidden mt-[16px] mb-[12px] lg:mt-0 lg:mb-0 lg:py-[7px]'>
         <div className='flex items-center justify-between'>
           <div className='flex items-center space-x-[280px]'>
@@ -63,20 +63,20 @@ const Header = () => {
           <img className='w-[25px] h-[25px]' src={MenuIcon} alt="MenuIcon" />
         </button>
       </div>
-      <div className={`w-[130px] h-[230px] rounded-md border-[2px] border-green-400 absolute bg-green-700 top-[-5px] ${openModal ? "right-0":"right-[-100%]"}`}>
+      <div className={`w-[130px] h-[230px] rounded-md border-[2px] border-green-400 absolute right-[10px] duration-300 ${openModal ? "top-[-15px]" : "top-[-300px]"} bg-green-700`}>
         <button className='ml-[10px] mt-[20px] text-[25px]' onClick={() => setOpenModal(false)}><img src={BackIcon} alt='BackIcon' width={30} height={30} /></button>
         <ul className='space-y-[10px] text-left mt-5'>
           <li className='duration-300 w-full hover:bg-white pl-[10px] group'>
-            <a className='font-medium text-[13px] leading-[24px] text-white group-hover:text-green-500' href='#'>Biz haqimizda</a>
+            <a className='font-medium text-[13px] leading-[24px] text-white group-hover:text-green-500' href='#approachWork'>Biz haqimizda</a>
           </li>
           <li className='duration-300 w-full hover:bg-white pl-[10px] group'>
-            <a className='font-medium text-[13px] leading-[24px] text-white group-hover:text-green-500' href='#'>Xizmatlar</a>
+            <a className='font-medium text-[13px] leading-[24px] text-white group-hover:text-green-500' href='#work'>Xizmatlar</a>
           </li>
           <li className='duration-300 w-full hover:bg-white pl-[10px] group'>
-            <a className='font-medium text-[13px] leading-[24px] text-white group-hover:text-green-500' href='#'>Mijozlar</a>
+            <a className='font-medium text-[13px] leading-[24px] text-white group-hover:text-green-500' href='#trust'>Mijozlar</a>
           </li>
           <li className='duration-300 w-full hover:bg-white pl-[10px] group'>
-            <a className='font-medium text-[13px] leading-[24px] text-white group-hover:text-green-500' href='#'>Bog’lanish</a>
+            <a className='font-medium text-[13px] leading-[24px] text-white group-hover:text-green-500' href='#contact'>Bog’lanish</a>
           </li>
         </ul>
       </div>
