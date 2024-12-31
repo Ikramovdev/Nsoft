@@ -1,7 +1,7 @@
 import React from 'react'
 import Line from "../assets/images/Line.png"
 import PhoneImgMobile from "../assets/images/PhoneImgMobile.png"
-import TopImg from "../assets/images/topImg.svg"
+
 const MobileApp = () => {
   return (
         <section className='MobileApp mb-[30px] lg:mb-[100px] relative'>
